@@ -4,12 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Harris County Pollution Control Social Links</title>
+<title>Harris County Pollution Control Services Social Media</title>
 
 <style>
 body {
     margin: 0;
-    padding: 10px;
+    padding: 20px 10px;
     background: transparent;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -23,27 +23,28 @@ body {
 }
 
 .social-btn {
-    width: 60px;
-    height: 60px;
+    width: 64px;
+    height: 64px;
     border-radius: 50%;
     background: #003A70;
     display: flex;
     align-items: center;
     justify-content: center;
     border: 2px solid #ffffff;
-    transition: all 0.25s ease;
     box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+    transition: all 0.25s ease;
+    cursor: pointer;
 }
 
 .social-btn:hover {
     background: #4A8B2C;
-    transform: translateY(-3px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 12px rgba(0,0,0,0.3);
 }
 
 .social-btn img {
-    width: 30px;
-    height: 30px;
+    width: 32px;
+    height: 32px;
     filter: brightness(0) invert(1);
 }
 
@@ -61,6 +62,7 @@ a {
     <a href="https://www.instagram.com/harriscopc/"
        target="_blank"
        rel="noopener noreferrer"
+       onclick="window.open(this.href,'_blank'); return false;"
        aria-label="Instagram">
         <div class="social-btn">
             <img src="instagram.png" alt="Instagram">
@@ -71,6 +73,7 @@ a {
     <a href="https://www.facebook.com/HarrisCoPollutionControl"
        target="_blank"
        rel="noopener noreferrer"
+       onclick="window.open(this.href,'_blank'); return false;"
        aria-label="Facebook">
         <div class="social-btn">
             <img src="facebook.png" alt="Facebook">
@@ -81,6 +84,7 @@ a {
     <a href="https://x.com/HarrisCoPC"
        target="_blank"
        rel="noopener noreferrer"
+       onclick="window.open(this.href,'_blank'); return false;"
        aria-label="X">
         <div class="social-btn">
             <img src="x.png" alt="X">
@@ -91,6 +95,7 @@ a {
     <a href="https://www.youtube.com/"
        target="_blank"
        rel="noopener noreferrer"
+       onclick="window.open(this.href,'_blank'); return false;"
        aria-label="YouTube">
         <div class="social-btn">
             <img src="youtube.png" alt="YouTube">
